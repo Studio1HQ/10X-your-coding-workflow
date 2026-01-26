@@ -1,0 +1,16 @@
+# System
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+*.log
+
+# Environment
+.env
+
+# ByteRover
+.brv/

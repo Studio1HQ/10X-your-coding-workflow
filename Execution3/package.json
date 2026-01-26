@@ -1,0 +1,28 @@
+{
+    "name": "analytics-demo-baseline",
+    "version": "1.0.0",
+    "description": "Baseline repository for analytics demo",
+    "main": "dist/src/api/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/src/api/index.js",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/jest": "^29.5.12",
+        "@types/node": "^20.11.19",
+        "@types/supertest": "^6.0.3",
+        "jest": "^29.7.0",
+        "supertest": "^7.2.2",
+        "ts-jest": "^29.1.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
